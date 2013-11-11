@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ -f dist/doc/html/*/index.html ]; then
+    $WEB_BROWSER dist/doc/html/*/index.html
+fi
